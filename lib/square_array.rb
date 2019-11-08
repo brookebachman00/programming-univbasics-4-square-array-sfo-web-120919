@@ -1,6 +1,6 @@
 def square_array(array)
   counter = 0
-  result = Array.new(numbers.size)
+  result = Array.new(array.size)
   while counter < array.length
     result[counter] = array[counter**2]
     counter += 1
